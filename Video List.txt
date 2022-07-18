@@ -1,12 +1,12 @@
 Module 9 HTMl CSS Landing Page
 
-1) intro with project resources
+1) ✔intro with project resources
 
-2) aligning the players(grid & flex)
+2) ✔aligning the players(grid & flex)
 
-3) extracting style info from figma & applying it to players
+3) ✔extracting style info from figma & applying it to players
 
-4) style debug , horizontal line break
+4) ✔style debug , horizontal line break
 
 5) create blog(flex & style adjust)
 
