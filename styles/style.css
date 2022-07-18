@@ -19,16 +19,19 @@ main{
     border: 1px solid black;
     margin-top: 25px;
     width: 870px;
-    height: 679px;
+    height: 630px;
     background-color: white;
-    padding: 33px 33px 42px;
+    padding: 0 33px;
+    border-radius: 5px;
 }
-.section2container{
+.section2-course{
     border: 1px solid salmon;
-    margin: 20px 0;
+    margin: 30px 0;
     width: 870px;
-    height: 362px;
+    height: 400px;
     background-color: white;
+    padding: 0 35px;
+    border-radius: 5px;
 }
 
 /*--------------*------------------*---------------*/
@@ -38,9 +41,9 @@ main{
 .top-player-container{
     margin-bottom: 20px;
 }
-h2.top-player-title{
+h2.section-title{
     color: #562EFF;
-    margin-top: 0;
+    margin: 30px 0;
 }
 .all-players{
     border: 1px solid salmon;
@@ -67,16 +70,12 @@ h2.top-player-title{
 /*--------------*----------------*---------------*/
                       /* ↡↡ */
 
-
-
-.blog-title{
-    color: #562EFF;
-    margin: 30px 0;
-}                      
+                      
 .all-blogs{
     border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    row-gap: 26px;
 }
 .per-article{
     border: 1px solid violet;
@@ -97,4 +96,67 @@ h3.blog-title{
     color: #562EFF;
     font-family: 'poppins';
     font-size: 16px;
-}                      
+}  
+.article-title{
+    margin-top: 0;
+    margin-bottom: 10px;
+}                
+
+/*--------------*-----------------*---------------*/
+/*--------------*  Latest course  *---------------*/
+/*--------------*-----------------*---------------*/
+/*                 ------↡↡------                 */
+
+
+.all-courses{
+    border: 1px solid blueviolet;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.course-card{
+    border: 1px solid salmon;
+    width: 252px;
+    height: 269px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+
+}
+.course-details{
+    width: 224px;
+
+}
+.course-card img{
+    border: 1px solid blueviolet;
+    width: 224px;
+    height: 104px;
+}
+.course-details p{
+    color: red;
+    text-decoration: none;
+}
+
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.fa-star{
+    font-size: 12px;
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-duration{
+    background-color: #FFE4E8;
+    border-radius: 15px;
+    padding: 5px;
+    color: red;
+}
