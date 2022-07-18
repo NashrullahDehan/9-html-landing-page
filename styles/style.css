@@ -10,27 +10,27 @@ body{
     background-color: #F3F1FF;
 }
 main{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .section-container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 25px;
     width: 870px;
     height: 630px;
     background-color: white;
-    padding: 0 33px;
+    padding: 0 33px 30px;
     border-radius: 5px;
 }
 .section2-course{
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     margin: 30px 0;
     width: 870px;
     height: 400px;
     background-color: white;
-    padding: 0 35px;
+    padding: 0 35px 10px;
     border-radius: 5px;
 }
 
@@ -46,7 +46,7 @@ h2.section-title{
     margin: 30px 0;
 }
 .all-players{
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     display: grid;
     grid-template-columns: repeat(3,3fr);
     row-gap: 16px;
@@ -55,7 +55,7 @@ h2.section-title{
     display: flex;
     align-items: center;
     font-family: 'poppins';
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .per-player img{
     width: 56px;
@@ -72,13 +72,13 @@ h2.section-title{
 
                       
 .all-blogs{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     row-gap: 26px;
 }
 .per-article{
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
     display: flex;
 }
 
@@ -109,12 +109,13 @@ h3.blog-title{
 
 
 .all-courses{
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    justify-items: center;
 }
 .course-card{
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     width: 252px;
     height: 269px;
     border-radius: 15px;
@@ -130,7 +131,7 @@ h3.blog-title{
 
 }
 .course-card img{
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     width: 224px;
     height: 104px;
 }
@@ -153,10 +154,44 @@ h3.blog-title{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    /* when there is 3 items in the div↴ */
+    /* display: grid;
+    grid-template-columns: 84px 25px 95px;
+    column-gap: 10px;
+    align-items: center; */
+}
+.course-info span{
+    color: #A2A2A2;
 }
 .course-duration{
     background-color: #FFE4E8;
     border-radius: 15px;
     padding: 5px;
     color: red;
+}
+
+/*--------------*-----------------*---------------*/
+/*--------------*   Media Query   *---------------*/
+/*--------------*-----------------*---------------*/
+/*                 ------↡↡------                 */
+
+/** For Mobile Devices **/
+@media only screen and (max-width:480px){                         /* 1-card 100%(each) */
+    
+}
+
+/** For Larger Mobile or mini Tablet Devices **/
+@media only screen and (min-width:481px) and (max-width:766px){   /* 2-cards 50%(each) */
+    
+}
+
+/** For Tablet, Laptop & Desktop Devices **/
+@media only screen and (min-width:767px) and (max-width:1280px){  /* 4-cards 25%*(each) */
+    
+}
+
+/** For Ultra Wide Screen Devices **/
+@media only screen and (min-width:1280px){                        /* 4-cards and sidebars 20%(each) */
+    
 }
