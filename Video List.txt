@@ -8,14 +8,14 @@ Module 9 HTMl CSS Landing Page
 
 4) ✔style debug , horizontal line break
 
-5) create blog(flex & style adjust)
+5) ✔create blog(flex & style adjust)
 
-6) multiple blogs(grid layout)
+6) ✔multiple blogs(grid layout)
 
-7) single course , font awesome ratings
+7) ✔single course , font awesome ratings
 
-8) add all course(grid layout)
+8) ✔add all course(grid layout)
 
-9) media query for different devices
+9) ✔media query for different devices
 
-10) summary
+10) ✔summary
