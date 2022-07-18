@@ -31,7 +31,10 @@ main{
     background-color: white;
 }
 
-/** Top Player-$ style */
+/*--------------*------------------*---------------*/
+/*--------------* Top Player style *---------------*/
+/*--------------*--------↡↡--------*---------------*/
+
 .top-player-container{
     margin-bottom: 20px;
 }
@@ -58,3 +61,40 @@ h2.top-player-title{
 .player-name{
     margin-left: 16px;
 }
+
+/*--------------*----------------*---------------*/
+/*--------------* Top Blog style *---------------*/
+/*--------------*----------------*---------------*/
+                      /* ↡↡ */
+
+
+
+.blog-title{
+    color: #562EFF;
+    margin: 30px 0;
+}                      
+.all-blogs{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.per-article{
+    border: 1px solid violet;
+    display: flex;
+}
+
+.blog-thumbnail img{
+    border: 1px solid black;
+    width: 177px;
+    height: 117px;
+    margin-right: 16px;
+}
+h3.blog-title{
+    margin-top: 0;
+}
+.per-article a{
+    text-decoration: none;
+    color: #562EFF;
+    font-family: 'poppins';
+    font-size: 16px;
+}                      
