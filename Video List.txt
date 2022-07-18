@@ -1,0 +1,21 @@
+Module 9 HTMl CSS Landing Page
+
+1) intro with project resources
+
+2) aligning the players(grid & flex)
+
+3) extracting style info from figma & applying it to players
+
+4) style debug , horizontal line break
+
+5) create blog(flex & style adjust)
+
+6) multiple blogs(grid layout)
+
+7) single course , font awesome ratings
+
+8) add all course(grid layout)
+
+9) media query for different devices
+
+10) summary
